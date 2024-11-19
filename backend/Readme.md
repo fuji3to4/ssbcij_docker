@@ -1,10 +1,11 @@
 # word_haku_api
 
-`word_haku_api` のリポジトリをこのディレクトリにクローンしてください。`word_haku_api` はバックエンドアプリケーションで、[FastAPI](https://fastapi.tiangolo.com/) を使用して構築されています。
+Please clone the `word_haku_api` repository into this directory. `word_haku_api` is a backend application built using [FastAPI](https://fastapi.tiangolo.com/).
 
-## クローン方法
+## How to Clone
 
-このリポジトリをローカル環境にクローンするには、以下のコマンドを実行してください：
+To clone this repository to your local environment, execute the following command:
 
 ```bash
 git clone https://github.com/aueno/word_haku_api.git
+```

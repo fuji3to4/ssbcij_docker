@@ -1,10 +1,11 @@
 # word-haku
 
-`word-haku` のリポジトリをこのディレクトリにクローンしてください。`word-haku` フロントエンドアプリケーションで、[Next.js](https://nextjs.org/) を使用して構築されています。
+Please clone the `word-haku` repository into this directory. The `word-haku` frontend application is built using [Next.js](https://nextjs.org/).
 
-## クローン方法
+## How to Clone
 
-このリポジトリをローカル環境にクローンするには、以下のコマンドを実行してください：
+To clone this repository to your local environment, run the following command:
 
 ```bash
 git clone https://github.com/aueno/word-haku.git
+```
