@@ -1,0 +1,9 @@
+# buckup
+bkp/
+
+# env files
+backend/.env
+
+#source
+backend/word_haku_api/
+frontend/word-haku/
