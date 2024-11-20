@@ -32,7 +32,7 @@ services:
       - "27017:27017"
     environment:
       MONGO_INITDB_ROOT_USERNAME: root # MongoDBの管理者のユーザー名
-      MONGO_INITDB_ROOT_PASSWORD: q12we34r # MongoDBの管理者のパスワード
+      MONGO_INITDB_ROOT_PASSWORD: xxxxxxxx # MongoDBの管理者のパスワード
       MONGO_INITDB_DATABASE: word_haku # 初期DBの作成
       TZ: Asia/Tokyo
     volumes:
@@ -51,8 +51,8 @@ services:
       - 8081:8081
     environment:
       ME_CONFIG_MONGODB_ADMINUSERNAME: root
-      ME_CONFIG_MONGODB_ADMINPASSWORD: q12we34r
-      ME_CONFIG_MONGODB_URL: mongodb://root:q12we34r@mongo:27017/
+      ME_CONFIG_MONGODB_ADMINPASSWORD: xxxxxxxx
+      ME_CONFIG_MONGODB_URL: mongodb://root:xxxxxxxx@mongo:27017/
       ME_CONFIG_BASICAUTH: false
 
 
