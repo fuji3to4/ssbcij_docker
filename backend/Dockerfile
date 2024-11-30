@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir poetry
 RUN poetry config virtualenvs.create false
 
 COPY ./word_haku_api /app
-#COPY .env /app/word_haku_api/.env
+COPY .env /app/word_haku_api/.env
 
 # 依存関係をインストール
 RUN poetry install
