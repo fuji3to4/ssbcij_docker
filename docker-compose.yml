@@ -5,8 +5,9 @@ services:
       dockerfile: Dockerfile
     container_name: fastapi_app
     volumes:
-      - ./backend/word_haku_api:/app
+      - ./backend/word_haku_api/word_haku_api/:/app/word_haku_api/
       - ./backend/.env:/app/word_haku_api/.env
+      # - /app/poetry.lock # poetry.lockはコンテナ内のみで管理
     ports:
       - "8000:8000"
     depends_on:
@@ -18,9 +19,9 @@ services:
       dockerfile: Dockerfile
     container_name: nextjs_app
     volumes:
-      - ./frontend/word-haku:/app
-      - /app/node_modules  # node_modulesはコンテナ内のみで管理
-      - /app/.next
+      - ./frontend/word-haku/src:/app/src
+      # - /app/node_modules  # node_modulesはコンテナ内のみで管理
+      # - /app/.next
     ports:
       - "3000:3000"
 
